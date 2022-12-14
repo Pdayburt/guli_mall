@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/common/common_util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/service_base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/infrastructure_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/renren_fast11/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/renren_generator11/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren/renren_fast/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service_coupon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service_member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service_order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service_product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service_ware/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file:///usr/local/apache-maven-3.6.3/maven-repo/org/springframework/boot/spring-boot-starter-parent/2.2.2.RELEASE/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

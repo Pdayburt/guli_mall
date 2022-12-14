@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: infrastructure-gateway
+  cloud:
+    nacos:
+      config:
+        namespace: 2667ea5c-40e8-4a90-b321-01d799f0ff12
+        file-extension: yml
+        server-addr: 121.40.186.104:8848
