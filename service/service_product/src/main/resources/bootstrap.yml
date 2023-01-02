@@ -1,10 +1,10 @@
-spring:
-  application:
-    name: service-product
-  cloud:
-    nacos:
-      config:
-        server-addr: 121.40.186.104:8848
-        file-extension: yml
-        namespace: f0043c4c-71ac-4d5a-ac6e-da1fc755a627
-        group: dev
+#spring:
+#  application:
+#    name: service-product
+#  cloud:
+#    nacos:
+#      config:
+#        server-addr: 47.122.21.27:8848
+#        file-extension: yml
+#        namespace: 3e6d9590-6597-4945-979d-6cea1f4d5315
+#        group: dev

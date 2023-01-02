@@ -11,35 +11,32 @@
         <module name="common_util" />
         <module name="infrastructure_gateway" />
         <module name="service_base" />
-        <module name="service_product" />
         <module name="renren_fast" />
+        <module name="service_product" />
+        <module name="service_third_party" />
         <module name="service_coupon" />
         <module name="service_order" />
         <module name="service_member" />
+        <module name="service_third-party" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="renren-generator11" target="1.8" />
-      <module name="renren_generator" target="1.8" />
+      <module name="service_third-party" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="" />
       <module name="common_util" options="-parameters" />
-      <module name="guli_mall" options="-parameters" />
-      <module name="infrastructure" options="-parameters" />
       <module name="infrastructure_gateway" options="-parameters" />
-      <module name="renren" options="" />
-      <module name="renren-generator11" options="-parameters" />
       <module name="renren_fast" options="-parameters" />
-      <module name="renren_generator" options="-parameters" />
-      <module name="service" options="-parameters" />
       <module name="service_base" options="-parameters" />
       <module name="service_coupon" options="-parameters" />
       <module name="service_member" options="-parameters" />
       <module name="service_order" options="-parameters" />
       <module name="service_product" options="-parameters" />
+      <module name="service_third-party" options="-parameters" />
+      <module name="service_third_party" options="-parameters" />
       <module name="service_ware" options="-parameters" />
     </option>
   </component>

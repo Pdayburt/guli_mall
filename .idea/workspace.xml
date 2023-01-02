@@ -4,7 +4,168 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e302167-da10-4283-b68c-6b71f472f036" name="Changes" comment="修改阿里云 Mysql的沙雕bug useSSL=false&amp;" />
+    <list default="true" id="5e302167-da10-4283-b68c-6b71f472f036" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/common_util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/constant/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/constant/ProductConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/emum/BizCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/valid/AddGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/valid/ListValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/valid/ListValueConstraintValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/valid/UpdateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/validator/Assert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/validator/ValidatorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/validator/group/AddGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/validator/group/AliyunGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/validator/group/QcloudGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/validator/group/QiniuGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/validator/group/UpdateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service_base/service_base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/src/main/java/com/anatkh/gateway/config/GuliMallCorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/target/classes/com/anatkh/gateway/GatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/target/classes/com/anatkh/gateway/config/GuliMallCorsConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren/renren_fast/renren_fast.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_coupon/service_coupon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_member/service_member.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_member/src/main/java/com/anatkh/member/controller/MemberLevelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/service_order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_product/service_product.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/controller/AttrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/controller/AttrGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/controller/CategoryBrandRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/vo/AttrGroupRelationVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/vo/AttrGroupWithAttrVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/vo/AttrResponseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/vo/AttrVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/vo/BrandVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_third_party/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_third_party/src/main/java/com/anatkh/third_party/ThirdPartyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_third_party/src/main/java/com/anatkh/third_party/controller/OSSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_third_party/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ware/service_ware.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_third_party/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6a563cc7-ca82-4a15-bfcc-b4a8362c8d8f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6a563cc7-ca82-4a15-bfcc-b4a8362c8d8f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6a563cc7-ca82-4a15-bfcc-b4a8362c8d8f/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6a563cc7-ca82-4a15-bfcc-b4a8362c8d8f/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6a563cc7-ca82-4a15-bfcc-b4a8362c8d8f/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/737d9190-458e-4fd7-8911-0d16e66ea9ba.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/737d9190-458e-4fd7-8911-0d16e66ea9ba/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/737d9190-458e-4fd7-8911-0d16e66ea9ba/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/737d9190-458e-4fd7-8911-0d16e66ea9ba/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/737d9190-458e-4fd7-8911-0d16e66ea9ba/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d03098d-8390-47d5-8803-a2bc16f55037.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d03098d-8390-47d5-8803-a2bc16f55037/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d03098d-8390-47d5-8803-a2bc16f55037/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d03098d-8390-47d5-8803-a2bc16f55037/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d03098d-8390-47d5-8803-a2bc16f55037/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ceb0a550-c98f-4120-b8fe-bbba17e253e5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ceb0a550-c98f-4120-b8fe-bbba17e253e5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ceb0a550-c98f-4120-b8fe-bbba17e253e5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ceb0a550-c98f-4120-b8fe-bbba17e253e5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ceb0a550-c98f-4120-b8fe-bbba17e253e5/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd71ab25-5b00-4489-aa2a-0504a9e79176.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd71ab25-5b00-4489-aa2a-0504a9e79176/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd71ab25-5b00-4489-aa2a-0504a9e79176/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd71ab25-5b00-4489-aa2a-0504a9e79176/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd71ab25-5b00-4489-aa2a-0504a9e79176/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/utils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/utils/SQLFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/utils/SQLFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_util/target/classes/com/anatkh/commonUtil/utils/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_util/target/classes/com/anatkh/commonUtil/utils/R.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_util/target/classes/com/anatkh/commonUtil/utils/SQLFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_util/target/classes/com/anatkh/commonUtil/utils/SQLFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/anatkh/serviceBase/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/anatkh/serviceBase/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/anatkh/serviceBase/interceptor/MyPaginationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/anatkh/serviceBase/interceptor/MyPaginationInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/target/classes/com/anatkh/serviceBase/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/target/classes/com/anatkh/serviceBase/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/target/classes/com/anatkh/serviceBase/interceptor/MyPaginationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/target/classes/com/anatkh/serviceBase/interceptor/MyPaginationInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren/renren_fast/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/src/main/java/io/renren/RenrenFastApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren/renren_fast/src/main/java/io/renren/RenrenFastApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/src/main/java/io/renren/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren/renren_fast/src/main/java/io/renren/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren/renren_fast/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren/renren_fast/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren/renren_fast/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren/renren_fast/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/RenrenFastApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/RenrenFastApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/test-classes/io/renren/DynamicDataSourceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/test-classes/io/renren/JwtTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/test-classes/io/renren/RedisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/test-classes/io/renren/service/DynamicDataSourceTestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_coupon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_coupon/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_coupon/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_coupon/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_member/src/main/java/com/anatkh/member/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_member/src/main/java/com/anatkh/member/MemberApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_member/src/main/java/com/anatkh/member/service/MemberLevelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_member/src/main/java/com/anatkh/member/service/MemberLevelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_member/src/main/java/com/anatkh/member/service/impl/MemberLevelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_member/src/main/java/com/anatkh/member/service/impl/MemberLevelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_member/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_member/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_member/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/entity/Attr.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/entity/Attr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/entity/AttrGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/entity/AttrGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/entity/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/entity/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/mapper/AttrAttrgroupRelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/mapper/AttrAttrgroupRelationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/AttrAttrgroupRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/AttrAttrgroupRelationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/AttrGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/AttrGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/AttrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/AttrService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/CategoryBrandRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/CategoryBrandRelationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/AttrAttrgroupRelationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/AttrAttrgroupRelationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/AttrGroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/AttrGroupServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/AttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/CategoryBrandRelationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/CategoryBrandRelationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/resources/mapper/AttrAttrgroupRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/resources/mapper/AttrAttrgroupRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/Attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/Attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/AttrGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/AttrGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/AttrAttrgroupRelationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/AttrAttrgroupRelationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/AttrAttrgroupRelationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/AttrAttrgroupRelationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/AttrGroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/AttrGroupService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/AttrService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/AttrService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/BrandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/CategoryBrandRelationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/CategoryBrandRelationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/AttrAttrgroupRelationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/AttrAttrgroupRelationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/AttrGroupServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/AttrGroupServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/AttrServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/AttrServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/CategoryBrandRelationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/CategoryBrandRelationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/AttrAttrgroupRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/target/classes/mapper/AttrAttrgroupRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_product/target/test-classes/com/anatkh/product/ProductTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_ware/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_ware/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +174,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -27,18 +191,25 @@
     <setting file="file://$PROJECT_DIR$/service/service_coupon/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/service/service_coupon/src/main/resources/bootstrap.yml" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="/usr/local/apache-maven-3.6.3/maven-repo" />
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
         <option name="mavenHome" value="/usr/local/apache-maven-3.6.3" />
-        <option name="showDialogWithAdvancedSettings" value="true" />
         <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="/usr/local/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
@@ -55,27 +226,35 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/anatkh/Downloads/Java Futher/guliMall/guli_mall/service/service_product/src/main/resources",
+    "last_opened_file_path": "/Users/anatkhhsu/Downloads/mall/guli_mall/common/common_util/src/main/java/com/anatkh/commonUtil",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
     "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.36666667",
-    "spring.configuration.checksum": "48aaba8437672647b0ca86e9f6a76232",
+    "spring.configuration.checksum": "1fcbc3263ef6ed00e3c37464d0b6382d",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -92,11 +271,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/service/service_product/src/main/resources" />
-      <recent name="$PROJECT_DIR$/infrastructure/infrastructure_gateway/src/main/resources" />
-      <recent name="$PROJECT_DIR$/renren/renren_fast" />
-      <recent name="$PROJECT_DIR$/common/src/main/java/com/anatkh/guliMall" />
-      <recent name="$PROJECT_DIR$/common/src/main/java/com/anatkh/guliMall/common" />
+      <recent name="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/service/service_third-party" />
+      <recent name="$PROJECT_DIR$/eladmin" />
+      <recent name="$PROJECT_DIR$/eladmin/eladmin-system" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/service/service_coupon/src/main/resources" />
@@ -107,21 +286,22 @@
       <recent name="io.renren.common.utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.anatkh.commonUtil.constant" />
+      <recent name="com.anatkh.commonUtil.utils" />
       <recent name="com.anatkh.guliMall.serviceBase.interceptor" />
       <recent name="com.anatkh.guliMall.commonUtil.utils" />
       <recent name="com.anatkh.guliMall.serviceBase.exception" />
-      <recent name="com.anatkh.guliMall.serviceBase.config" />
-      <recent name="com.anatkh.guliMall.product" />
     </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="Application" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication">
+  <component name="RunManager" selected="Spring Boot.MemberApplication">
     <configuration name="ProductTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service_product" />
       <extension name="coverage">
@@ -186,6 +366,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThirdPartyApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service_third_party" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anatkh.third_party.ThirdPartyApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service_ware" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.anatkh.guliMall.ware.WareApplication" />
@@ -193,6 +380,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ProductTest.test" />
+      <item itemvalue="Spring Boot.CouponApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.MemberApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.RenrenFastApplication" />
+      <item itemvalue="Spring Boot.ThirdPartyApp" />
+      <item itemvalue="Spring Boot.WareApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ProductApplication" />
@@ -218,6 +416,22 @@
       <workItem from="1670980871691" duration="7400000" />
       <workItem from="1670998363081" duration="1614000" />
       <workItem from="1670999989162" duration="8000" />
+      <workItem from="1671898373723" duration="3519000" />
+      <workItem from="1671941263328" duration="460000" />
+      <workItem from="1671941732639" duration="38000" />
+      <workItem from="1671948458463" duration="15000" />
+      <workItem from="1672020175373" duration="2520000" />
+      <workItem from="1672032462079" duration="30000" />
+      <workItem from="1672032676094" duration="14135000" />
+      <workItem from="1672105694924" duration="18216000" />
+      <workItem from="1672157343345" duration="33220000" />
+      <workItem from="1672278025283" duration="15478000" />
+      <workItem from="1672367870993" duration="199000" />
+      <workItem from="1672369154102" duration="21032000" />
+      <workItem from="1672512499057" duration="4239000" />
+      <workItem from="1672637080022" duration="11507000" />
+      <workItem from="1672650168332" duration="1085000" />
+      <workItem from="1672651268132" duration="8697000" />
     </task>
     <servers />
   </component>
@@ -241,6 +455,11 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="修改阿里云 Mysql的沙雕bug useSSL=false&amp;" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改阿里云 Mysql的沙雕bug useSSL=false&amp;" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

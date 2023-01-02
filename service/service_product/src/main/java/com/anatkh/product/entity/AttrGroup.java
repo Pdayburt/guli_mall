@@ -46,6 +46,9 @@ public class AttrGroup implements Serializable {
     private Long catelogId;
 
     @TableField(exist = false)
+    private Long[] catalogPath;
+
+    @TableField(exist = false)
     private static final long serialVersionUID = 1L;
 
     @Override

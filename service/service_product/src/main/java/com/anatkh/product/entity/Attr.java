@@ -60,6 +60,7 @@ public class Attr implements Serializable {
      */
     private Integer showDesc;
 
+
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
 

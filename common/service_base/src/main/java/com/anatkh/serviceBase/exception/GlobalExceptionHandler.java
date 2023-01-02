@@ -1,27 +1,44 @@
 package com.anatkh.serviceBase.exception;
 
 
+
+import com.anatkh.commonUtil.emum.BizCodeEnum;
+import com.anatkh.commonUtil.utils.R;
 import com.anatkh.commonUtil.utils.RT;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import java.util.HashMap;
 
 @Slf4j
-@ControllerAdvice
+@RestControllerAdvice
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
-    @ResponseBody
     public RT exceptionHandler(Exception e){
 
         e.printStackTrace();
         log.error(e.getMessage());
-        return RT.error().msg("925国际会所专用全局异常处理已经执行了。。。。。。。");
+        return RT.error().msg(e.getMessage());
+    }
+
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public R methodArgumentNotValidException(MethodArgumentNotValidException e){
+        BindingResult bindingResult = e.getBindingResult();
+        HashMap<String, Object> argumentException = new HashMap<>();
+        bindingResult.getFieldErrors()
+                .stream().forEach(item->{
+                    String field = item.getField();
+                    String defaultMessage = item.getDefaultMessage();
+                    argumentException.put(field,defaultMessage);
+                });
+        return R.error(BizCodeEnum.VALID_EXCEPTION.getCode(),BizCodeEnum.VALID_EXCEPTION.getMsg()).put("data",argumentException);
     }
 
     @ExceptionHandler(ArithmeticException.class)
-    @ResponseBody
     public RT arithmeticException(Exception e) {
         e.printStackTrace();
         log.error(e.getMessage());
@@ -29,7 +46,6 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(GuliException.class)
-    @ResponseBody
     public RT guliExceptionHandler(GuliException e) {
         e.printStackTrace();
         return RT.error().code(e.getCode()).data(e.getMsg());

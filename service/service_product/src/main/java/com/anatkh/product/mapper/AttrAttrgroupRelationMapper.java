@@ -2,6 +2,9 @@ package com.anatkh.product.mapper;
 
 import com.anatkh.product.entity.AttrAttrgroupRelation;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
 * @author anatkh
@@ -11,6 +14,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 */
 public interface AttrAttrgroupRelationMapper extends BaseMapper<AttrAttrgroupRelation> {
 
+    void deleteBatchRelation(@Param("attrAttrGroupRelations") List<AttrAttrgroupRelation> attrAttrGroupRelations);
 }
 
 

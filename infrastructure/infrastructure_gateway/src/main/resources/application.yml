@@ -1,23 +1,32 @@
 server:
-  port: 13000
+  port: 88
 spring:
   application:
     name: infrastructure-gateway
-  jackson:
-    date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
   cloud:
     nacos:
       discovery:
-        server-addr: 121.40.186.104:8848
-        namespace: 2667ea5c-40e8-4a90-b321-01d799f0ff12
+        server-addr: 47.122.21.27:8848
+        namespace: 3e6d9590-6597-4945-979d-6cea1f4d5315
     gateway:
       routes:
-        - id: baidu_route
-          uri: https://www.baidu.com
+        - id: product_route
+          uri: lb://service-product
           predicates:
-          - Query=url,baidu
-        - id: youtube_route
-          uri: https://www.youku.com
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: member_route
+          uri: lb://service-member
           predicates:
-          - Query=url,youku
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+          - Path=/api/**
+          filters:
+          - RewritePath=/api/?(?<segment>.*), /renren-fast/$\{segment}

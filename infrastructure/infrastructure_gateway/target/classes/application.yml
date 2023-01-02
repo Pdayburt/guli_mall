@@ -1,0 +1,32 @@
+server:
+  port: 88
+spring:
+  application:
+    name: infrastructure-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.122.21.27:8848
+        namespace: 3e6d9590-6597-4945-979d-6cea1f4d5315
+    gateway:
+      routes:
+        - id: product_route
+          uri: lb://service-product
+          predicates:
+          - Path=/api/product/**
+          filters:
+          - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: member_route
+          uri: lb://service-member
+          predicates:
+          - Path=/api/member/**
+          filters:
+          - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+          - Path=/api/**
+          filters:
+          - RewritePath=/api/?(?<segment>.*), /renren-fast/$\{segment}

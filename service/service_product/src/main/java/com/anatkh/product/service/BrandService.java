@@ -1,7 +1,10 @@
 package com.anatkh.product.service;
 
+import com.anatkh.commonUtil.utils.PageUtils;
 import com.anatkh.product.entity.Brand;
 import com.baomidou.mybatisplus.extension.service.IService;
+
+import java.util.Map;
 
 /**
 * @author anatkh
@@ -10,4 +13,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface BrandService extends IService<Brand> {
 
+    PageUtils queryPage(Map<String, Object> params);
+
+    void updateDetail(Brand brand);
 }

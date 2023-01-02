@@ -9,7 +9,7 @@
 package com.anatkh.commonUtil.utils;
 
 
-import org.apache.commons.lang.StringUtils;
+import org.springframework.util.StringUtils;
 
 /**
  * SQL过滤
@@ -23,7 +23,7 @@ public class SQLFilter {
      * @param str  待验证的字符串
      */
     public static String sqlInject(String str){
-        if(StringUtils.isBlank(str)){
+        if(StringUtils.isEmpty(str)){
             return null;
         }
         //去掉'|"|;|\字符

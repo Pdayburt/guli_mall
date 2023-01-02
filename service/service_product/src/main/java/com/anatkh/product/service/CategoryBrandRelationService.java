@@ -1,7 +1,12 @@
 package com.anatkh.product.service;
 
+import com.anatkh.commonUtil.utils.PageUtils;
+import com.anatkh.product.entity.Brand;
 import com.anatkh.product.entity.CategoryBrandRelation;
 import com.baomidou.mybatisplus.extension.service.IService;
+
+import java.util.List;
+import java.util.Map;
 
 /**
 * @author anatkh
@@ -10,4 +15,14 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface CategoryBrandRelationService extends IService<CategoryBrandRelation> {
 
+
+    List<CategoryBrandRelation> findByBrandId(Long brandId);
+
+    void saveDeatil(CategoryBrandRelation categoryBrandRelation);
+
+    void updateBrand(Long brandId, String name);
+
+    void updateCategory(Long catId, String name);
+
+    List<Brand> getBrandsByCatId(Long catId);
 }

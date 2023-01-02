@@ -1,7 +1,13 @@
 package com.anatkh.product.service;
 
+import com.anatkh.commonUtil.utils.PageUtils;
 import com.anatkh.product.entity.AttrGroup;
+import com.anatkh.product.vo.AttrGroupRelationVo;
+import com.anatkh.product.vo.AttrGroupWithAttrVo;
 import com.baomidou.mybatisplus.extension.service.IService;
+
+import java.util.List;
+import java.util.Map;
 
 /**
 * @author anatkh
@@ -10,4 +16,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface AttrGroupService extends IService<AttrGroup> {
 
+    PageUtils queryPage(Map<String, Object> params, Integer catalogId);
+
+
+    List<AttrGroupWithAttrVo> getAttrGroupAndAttrsByCatelogId(Long catelogId);
 }

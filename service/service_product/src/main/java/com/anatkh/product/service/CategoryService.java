@@ -13,4 +13,10 @@ import java.util.List;
 public interface CategoryService extends IService<Category> {
 
     List<Category> listWithTree();
+
+    void removeMenusById(List<Integer> catIds);
+
+    Long[] findCatelogPath(Long catelogId);
+
+    void updateCascade(Category category);
 }

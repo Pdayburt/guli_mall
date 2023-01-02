@@ -1,10 +1,11 @@
 package com.anatkh.product.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
+
 import java.io.Serializable;
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 /**
@@ -38,6 +39,7 @@ public class Category implements Serializable {
     /**
      * 
      */
+    @TableLogic(value = "1",delval = "0")
     private Integer showStatus;
 
     /**
@@ -59,6 +61,9 @@ public class Category implements Serializable {
      * 
      */
     private Integer productCount;
+    @JsonInclude(JsonInclude.Include.NON_EMPTY)
+    @TableField(exist = false)
+    private List<Category> children;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
