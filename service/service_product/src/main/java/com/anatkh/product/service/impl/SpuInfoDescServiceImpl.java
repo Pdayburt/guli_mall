@@ -15,6 +15,10 @@ import org.springframework.stereotype.Service;
 public class SpuInfoDescServiceImpl extends ServiceImpl<SpuInfoDescMapper, SpuInfoDesc>
     implements SpuInfoDescService {
 
+    @Override
+    public void saveSpuInfoDesc(SpuInfoDesc spuInfoDesc) {
+        baseMapper.insert(spuInfoDesc);
+    }
 }
 
 

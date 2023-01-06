@@ -42,7 +42,6 @@ public class Query<T> {
 
         //分页对象
         Page<T> page = new Page<>(curPage, limit);
-
         //分页参数
         params.put(Constant.PAGE, page);
 

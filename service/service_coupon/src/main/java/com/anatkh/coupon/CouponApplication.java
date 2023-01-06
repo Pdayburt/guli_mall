@@ -9,8 +9,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan("com.anatkh.guliMall.coupon.mapper")
-@ComponentScan("com.anatkh.guliMall.serviceBase.config")
+@MapperScan("com.anatkh.coupon.mapper")
+@ComponentScan("com.anatkh")
 public class CouponApplication {
     public static void main(String[] args) {
         SpringApplication.run(CouponApplication.class, args);

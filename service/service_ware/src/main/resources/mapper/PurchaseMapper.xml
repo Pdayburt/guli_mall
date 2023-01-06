@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.anatkh.guliMall.ware.mapper.PurchaseMapper">
+<mapper namespace="com.anatkh.ware.mapper.PurchaseMapper">
 
-    <resultMap id="BaseResultMap" type="com.anatkh.guliMall.ware.entity.Purchase">
+    <resultMap id="BaseResultMap" type="com.anatkh.ware.entity.Purchase">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="assigneeId" column="assignee_id" jdbcType="BIGINT"/>
             <result property="assigneeName" column="assignee_name" jdbcType="VARCHAR"/>

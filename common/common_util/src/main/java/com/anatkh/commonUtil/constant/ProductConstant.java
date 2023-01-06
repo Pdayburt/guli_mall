@@ -10,7 +10,6 @@ public class ProductConstant {
             this.code=code;
             this.msg=msg;
         }
-
         public Integer getCode() {
             return code;
         }
@@ -18,6 +17,5 @@ public class ProductConstant {
         public String getMsg() {
             return msg;
         }
-
     }
 }

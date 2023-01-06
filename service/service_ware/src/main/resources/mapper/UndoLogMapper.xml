@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.anatkh.guliMall.ware.mapper.UndoLogMapper">
+<mapper namespace="com.anatkh.ware.mapper.UndoLogMapper">
 
-    <resultMap id="BaseResultMap" type="com.anatkh.guliMall.ware.entity.UndoLog">
+    <resultMap id="BaseResultMap" type="com.anatkh.ware.entity.UndoLog">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="branchId" column="branch_id" jdbcType="BIGINT"/>
             <result property="xid" column="xid" jdbcType="VARCHAR"/>

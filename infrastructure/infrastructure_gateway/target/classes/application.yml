@@ -13,16 +13,23 @@ spring:
         - id: product_route
           uri: lb://service-product
           predicates:
-          - Path=/api/product/**
+            - Path=/api/product/**
           filters:
-          - RewritePath=/api/(?<segment>.*),/$\{segment}
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
 
         - id: member_route
           uri: lb://service-member
           predicates:
-          - Path=/api/member/**
+            - Path=/api/member/**
           filters:
-          - RewritePath=/api/(?<segment>.*),/$\{segment}
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: ware_route
+          uri: lb://service-ware
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
 
         - id: admin_route
           uri: lb://renren-fast

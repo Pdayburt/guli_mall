@@ -8,9 +8,7 @@
 
 package com.anatkh.commonUtil.constant;
 
-//import io.renren.common.validator.group.AliyunGroup;
-//import io.renren.common.validator.group.QcloudGroup;
-//import io.renren.common.validator.group.QiniuGroup;
+
 
 import com.anatkh.commonUtil.validator.group.AliyunGroup;
 import com.anatkh.commonUtil.validator.group.QcloudGroup;

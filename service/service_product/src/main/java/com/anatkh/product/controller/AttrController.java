@@ -2,7 +2,9 @@ package com.anatkh.product.controller;
 
 import com.anatkh.commonUtil.utils.PageUtils;
 import com.anatkh.commonUtil.utils.R;
+import com.anatkh.product.entity.ProductAttrValue;
 import com.anatkh.product.service.AttrService;
+import com.anatkh.product.service.ProductAttrValueService;
 import com.anatkh.product.vo.AttrResponseVo;
 import com.anatkh.product.vo.AttrVo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +18,21 @@ import java.util.Map;
 public class AttrController {
     @Autowired
     private AttrService attrService;
+    @Autowired
+    private ProductAttrValueService productAttrValueService;
 
+    @PostMapping("update/{spuId}")
+    public R updateSpuAttr(@PathVariable Long spuId,
+                           @RequestBody List<ProductAttrValue> productAttrValueList){
+        productAttrValueService.updateSpuAttr(spuId,productAttrValueList);
+        return R.ok();
+    }
+
+    @GetMapping("base/listforspu/{spuId}")
+    public R baseAttrListForSpu(@PathVariable Long spuId){
+        List<ProductAttrValue> productAttrValueList =  productAttrValueService.baseAttrListForSpu(spuId);
+        return R.ok().put("data",productAttrValueList);
+    }
     @PostMapping("save")
     public R save(@RequestBody AttrVo attrVo){
         attrService.saveAttrVo(attrVo);
@@ -42,8 +58,4 @@ public class AttrController {
         attrService.updateAttr(attrVo);
         return R.ok();
     }
-
-
-
-
 }

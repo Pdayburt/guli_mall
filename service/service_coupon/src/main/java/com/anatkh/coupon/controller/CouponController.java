@@ -16,12 +16,4 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("coupon")
 public class CouponController {
 
-    @Value("${xuchao.name}")
-    private String age;
-
-    @RequestMapping("getAge")
-    private R getAge(){
-        System.out.println("age===="+age);
-        return R.ok().put("age", age);
-    }
 }

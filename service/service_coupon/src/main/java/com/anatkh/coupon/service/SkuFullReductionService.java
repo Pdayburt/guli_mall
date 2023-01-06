@@ -1,5 +1,6 @@
 package com.anatkh.coupon.service;
 
+import com.anatkh.commonUtil.to.SkuReductionTo;
 import com.anatkh.coupon.entity.SkuFullReduction;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -10,4 +11,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface SkuFullReductionService extends IService<SkuFullReduction> {
 
+    void saveSkuReductionTo(SkuReductionTo skuReductionTo);
 }

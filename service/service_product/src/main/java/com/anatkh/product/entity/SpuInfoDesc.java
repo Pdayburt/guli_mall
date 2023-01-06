@@ -1,5 +1,6 @@
 package com.anatkh.product.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -16,7 +17,7 @@ public class SpuInfoDesc implements Serializable {
     /**
      * 
      */
-    @TableId
+    @TableId(type= IdType.INPUT)
     private Long spuId;
 
     /**
