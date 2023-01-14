@@ -19,6 +19,7 @@
         <module>service_product</module>
         <module>service_ware</module>
         <module>service_third_party</module>
+        <module>service_es</module>
     </modules>
 
     <dependencies>

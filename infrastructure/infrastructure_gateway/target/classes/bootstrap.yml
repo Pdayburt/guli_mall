@@ -1,9 +1,0 @@
-#spring:
-#  application:
-#    name: infrastructure-gateway
-#  cloud:
-#    nacos:
-#      config:
-#        namespace: 3e6d9590-6597-4945-979d-6cea1f4d5315
-#        file-extension: yml
-#        server-addr: 47.122.21.27/:8848

@@ -16,6 +16,7 @@
         <module name="service_third_party" />
         <module name="service_coupon" />
         <module name="service_order" />
+        <module name="service_es" />
         <module name="service_member" />
         <module name="service_third-party" />
       </profile>
@@ -32,6 +33,7 @@
       <module name="renren_fast" options="-parameters" />
       <module name="service_base" options="-parameters" />
       <module name="service_coupon" options="-parameters" />
+      <module name="service_es" options="-parameters" />
       <module name="service_member" options="-parameters" />
       <module name="service_order" options="-parameters" />
       <module name="service_product" options="-parameters" />

@@ -49,6 +49,11 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoMapper, SkuInfo>
         IPage<SkuInfo> skuInfoIPage = baseMapper.selectPage(new Query<SkuInfo>().getPage(params), skuInfoLambdaQueryWrapper);
         return new PageUtils(skuInfoIPage);
     }
+
+    @Override
+    public void up(Long spuId) {
+
+    }
 }
 
 

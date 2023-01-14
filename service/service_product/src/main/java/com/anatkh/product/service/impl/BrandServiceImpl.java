@@ -18,24 +18,25 @@ import org.springframework.util.StringUtils;
 import java.util.Map;
 
 /**
-* @author anatkh
-* @description 针对表【pms_brand(Ʒ)】的数据库操作Service实现
-* @createDate 2022-12-13 10:57:17
-*/
+ * @author anatkh
+ * @description 针对表【pms_brand(Ʒ)】的数据库操作Service实现
+ * @createDate 2022-12-13 10:57:17
+ */
 @Service
 public class BrandServiceImpl extends ServiceImpl<BrandMapper, Brand>
-    implements BrandService {
+        implements BrandService {
 
     @Autowired
     private CategoryBrandRelationService categoryBrandRelationService;
+
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
         String key = (String) params.get("key");
         LambdaQueryWrapper<Brand> brandLambdaQueryWrapper = new LambdaQueryWrapper<>();
         brandLambdaQueryWrapper
-                .eq(!StringUtils.isEmpty(key),Brand::getBrandId,key)
+                .eq(!StringUtils.isEmpty(key), Brand::getBrandId, key)
                 .or()
-                .like(!StringUtils.isEmpty(key),Brand::getName,key);
+                .like(!StringUtils.isEmpty(key), Brand::getName, key);
         IPage<Brand> brandIPage = baseMapper.selectPage(new Query<Brand>().getPage(params), brandLambdaQueryWrapper);
         return new PageUtils(brandIPage);
     }
@@ -46,7 +47,7 @@ public class BrandServiceImpl extends ServiceImpl<BrandMapper, Brand>
         //保证冗余数据的一致性
         baseMapper.updateById(brand);
         if (!StringUtils.isEmpty(brand.getName())) {
-            categoryBrandRelationService.updateBrand(brand.getBrandId(),brand.getName());
+            categoryBrandRelationService.updateBrand(brand.getBrandId(), brand.getName());
         }
     }
 }

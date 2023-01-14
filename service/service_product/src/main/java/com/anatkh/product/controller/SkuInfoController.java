@@ -15,6 +15,12 @@ public class SkuInfoController {
 
     @Autowired
     private SkuInfoService skuInfoService;
+
+    @GetMapping("{spuId}/up")
+    public R spuUp(@PathVariable Long spuId){
+        skuInfoService.up(spuId);
+        return R.ok();
+    }
     @PostMapping("list")
     public R list(@RequestParam Map<String,Object> params){
         PageUtils page = skuInfoService.queryPageByCondition(params);
