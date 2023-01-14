@@ -4,325 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e302167-da10-4283-b68c-6b71f472f036" name="Changes" comment="练习es了">
-      <change afterPath="$PROJECT_DIR$/common/common_util/src/main/java/com/anatkh/commonUtil/to/es/SkuESModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_es/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_es/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_es/src/main/java/com/anathkh/es/ESApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_es/src/main/java/com/anathkh/es/config/GuliElasticSearchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_es/src/test/java/com/anatkh/ESTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/target/classes/com/anatkh/gateway/GatewayApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/infrastructure_gateway/target/classes/com/anatkh/gateway/config/GuliMallCorsConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/renren_fast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren/renren_fast/renren_fast.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/application-test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/RenrenFastApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/annotation/SysLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/aspect/RedisAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/aspect/SysLogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/exception/RRException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/exception/RRExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/ConfigConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/Constant$CloudService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/Constant$MenuType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/Constant$ScheduleStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/DateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/HttpContextUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/IPUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/MapUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/PageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/Query.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/RedisKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/RedisUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/ShiroUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/utils/SpringContextUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/validator/Assert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/validator/ValidatorUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/validator/group/AddGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/validator/group/AliyunGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/validator/group/Group.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/validator/group/QcloudGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/validator/group/QiniuGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/validator/group/UpdateGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/xss/HTMLFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/xss/SQLFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/xss/XssFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/xss/XssHttpServletRequestWrapper$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/common/xss/XssHttpServletRequestWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/config/FilterConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/config/KaptchaConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/config/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/config/ShiroConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/datasource/annotation/DataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/datasource/aspect/DataSourceAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/datasource/config/DynamicContextHolder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/datasource/config/DynamicContextHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/datasource/config/DynamicDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/datasource/config/DynamicDataSourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/datasource/config/DynamicDataSourceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/datasource/properties/DataSourceProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/datasource/properties/DynamicDataSourceProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/annotation/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/annotation/LoginUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/config/WebMvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/controller/AppLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/controller/AppRegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/controller/AppTestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/entity/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/form/LoginForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/form/RegisterForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/interceptor/AuthorizationInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/resolver/LoginUserHandlerMethodArgumentResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/app/utils/JwtUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/config/ScheduleConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/controller/ScheduleJobController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/controller/ScheduleJobLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/dao/ScheduleJobDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/dao/ScheduleJobLogDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/entity/ScheduleJobEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/entity/ScheduleJobLogEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/service/ScheduleJobLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/service/ScheduleJobService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/service/impl/ScheduleJobLogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/service/impl/ScheduleJobServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/task/ITask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/task/TestTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/utils/ScheduleJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/job/utils/ScheduleUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/cloud/AliyunCloudStorageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/cloud/CloudStorageConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/cloud/CloudStorageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/cloud/OSSFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/cloud/QcloudCloudStorageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/cloud/QiniuCloudStorageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/controller/SysOssController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/dao/SysOssDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/entity/SysOssEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/service/SysOssService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/oss/service/impl/SysOssServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/controller/AbstractController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/controller/SysConfigController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/controller/SysLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/controller/SysLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/controller/SysMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/controller/SysRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/controller/SysUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/dao/SysCaptchaDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/dao/SysConfigDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/dao/SysLogDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/dao/SysMenuDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/dao/SysRoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/dao/SysRoleMenuDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/dao/SysUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/dao/SysUserRoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/dao/SysUserTokenDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/entity/SysCaptchaEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/entity/SysConfigEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/entity/SysLogEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/entity/SysMenuEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/entity/SysRoleEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/entity/SysRoleMenuEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/entity/SysUserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/entity/SysUserRoleEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/entity/SysUserTokenEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/form/PasswordForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/form/SysLoginForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/oauth2/OAuth2Filter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/oauth2/OAuth2Realm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/oauth2/OAuth2Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/oauth2/TokenGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/redis/SysConfigRedis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/ShiroService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/SysCaptchaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/SysConfigService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/SysLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/SysMenuService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/SysRoleMenuService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/SysRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/SysUserRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/SysUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/SysUserTokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/impl/ShiroServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/impl/SysCaptchaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/impl/SysConfigServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/impl/SysLogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/impl/SysMenuServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/impl/SysRoleMenuServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/impl/SysRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/impl/SysUserRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/impl/SysUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/io/renren/modules/sys/service/impl/SysUserTokenServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/app/UserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/job/ScheduleJobDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/job/ScheduleJobLogDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/oss/SysOssDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/sys/SysConfigDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/sys/SysLogDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/sys/SysMenuDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/sys/SysRoleDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/sys/SysRoleMenuDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/sys/SysUserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/sys/SysUserRoleDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/mapper/sys/SysUserTokenDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/css/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/css/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/css/typography.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/fonts/DroidSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/fonts/DroidSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/images/collapse.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/images/expand.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/images/explorer_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/images/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/images/logo_small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/images/pet_store_api.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/images/throbber.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/images/wordnik_api.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/index.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lang/translator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/backbone-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/es5-shim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/handlebars-4.0.5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/highlight.9.1.0.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/highlight.9.1.0.pack_extended.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/jquery-1.8.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/jquery.ba-bbq.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/jquery.slideto.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/jquery.wiggle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/js-yaml.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/jsoneditor.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/lodash.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/marked.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/object-assign-pollyfill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/sanitize-html.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/lib/swagger-oauth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/o2c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/oauth2-redirect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/swagger-ui-bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/swagger-ui-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/swagger-ui-standalone-preset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/swagger-ui-standalone-preset.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/swagger-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/swagger-ui.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/swagger-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/swagger-ui.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren/renren_fast/target/classes/static/swagger/swagger-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/controller/SkuInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/controller/SkuInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/SkuInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/AttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/AttrServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/main/java/com/anatkh/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/src/test/java/com/anatkh/product/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_product/src/test/java/com/anatkh/product/ProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/ProductApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/controller/CategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/Attr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/AttrAttrgroupRelation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/AttrGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/Brand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/CategoryBrandRelation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/CommentReplay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/ProductAttrValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/SkuImages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/SkuInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/SkuSaleAttrValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/SpuComment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/SpuImages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/SpuInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/entity/SpuInfoDesc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/AttrAttrgroupRelationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/AttrGroupMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/AttrMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/BrandMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/CategoryBrandRelationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/CategoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/CommentReplayMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/ProductAttrValueMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/SkuImagesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/SkuInfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/SkuSaleAttrValueMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/SpuCommentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/SpuImagesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/SpuInfoDescMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/mapper/SpuInfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/AttrAttrgroupRelationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/AttrGroupService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/AttrService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/BrandService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/CategoryBrandRelationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/CommentReplayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/ProductAttrValueService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/SkuImagesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/SkuInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/SkuSaleAttrValueService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/SpuCommentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/SpuImagesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/SpuInfoDescService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/SpuInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/AttrAttrgroupRelationServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/AttrGroupServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/AttrServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/BrandServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/CategoryBrandRelationServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/CommentReplayServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/ProductAttrValueServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/SkuImagesServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/SkuInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/SkuSaleAttrValueServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/SpuCommentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/SpuImagesServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/SpuInfoDescServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/com/anatkh/product/service/impl/SpuInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/AttrAttrgroupRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/AttrGroupMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/AttrMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/BrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/CategoryBrandRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/CategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/CommentReplayMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/ProductAttrValueMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/SkuImagesMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/SkuInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/SkuSaleAttrValueMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/SpuCommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/SpuImagesMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/SpuInfoDescMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_product/target/classes/mapper/SpuInfoMapper.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="5e302167-da10-4283-b68c-6b71f472f036" name="Changes" comment="练习es了" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -340,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -471,7 +154,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ESTest.testSearch">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="GuliMall" type="CompoundRunConfigurationType">
       <toRun name="CouponApplication" type="SpringBootApplicationConfigurationType" />
       <toRun name="GatewayApplication" type="SpringBootApplicationConfigurationType" />
@@ -717,7 +400,7 @@
       <workItem from="1673330260720" duration="1315000" />
       <workItem from="1673426980611" duration="10300000" />
       <workItem from="1673443076303" duration="3013000" />
-      <workItem from="1673462118653" duration="29037000" />
+      <workItem from="1673462118653" duration="29423000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1672662481799</created>
@@ -733,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673030037223</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="练习es了">
+      <created>1673685336845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673685336845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
