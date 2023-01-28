@@ -6,6 +6,7 @@ import com.anatkh.commonUtil.utils.R;
 import com.anatkh.ware.entity.WareSku;
 import com.anatkh.ware.feign.ProductFeignService;
 import com.anatkh.ware.service.WareSkuService;
+import com.anatkh.ware.vo.SkuHasStockVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -15,7 +16,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
 * @author anatkh
@@ -69,6 +72,18 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuMapper, WareSku>
         }else {
             baseMapper.addStock(skuId,wareId, skuNum);
         }
+    }
+
+    @Override
+    public List<SkuHasStockVo> getSkuHasStock(List<Long> skuIds) {
+        List<SkuHasStockVo> skuHasStockVoList = skuIds.stream().map(skuId -> {
+            SkuHasStockVo skuHasStockVo = new SkuHasStockVo();
+            Long count = baseMapper.getSkuStock(skuId);
+            skuHasStockVo.setSkuId(skuId);
+            skuHasStockVo.setHasStock(count == null?false:count>0);
+            return skuHasStockVo;
+        }).collect(Collectors.toList());
+        return skuHasStockVoList;
     }
 }
 

@@ -3,6 +3,7 @@ package com.anatkh.commonUtil.to.es;
 import lombok.Data;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
@@ -23,7 +24,7 @@ public class SkuESModel {
     private String brandImg;
     private String catalogName;
 
-    private List<Object> attrs;
+    private List<Attrs> attrs;
     @Data
     public static class Attrs{
         private Long attrId;

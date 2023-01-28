@@ -198,6 +198,11 @@ public class AttrServiceImpl extends ServiceImpl<AttrMapper, Attr>
         IPage<Attr> page = baseMapper.selectPage(new Query<Attr>().getPage(params), attrLambdaQueryWrapper);
         return new PageUtils(page);
     }
+
+    @Override
+    public List<Long> selectSearchAttrs(List<Long> attrIdList) {
+        return baseMapper.selectSearchAttrs(attrIdList);
+    }
 }
 
 

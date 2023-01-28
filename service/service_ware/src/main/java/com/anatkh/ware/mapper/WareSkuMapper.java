@@ -14,6 +14,8 @@ public interface WareSkuMapper extends BaseMapper<WareSku> {
 
 
     void addStock(@Param("skuId") Long skuId,@Param("wareId") Long wareId,@Param("skuNum") Integer skuNum);
+
+    Long getSkuStock(Long skuId);
 }
 
 

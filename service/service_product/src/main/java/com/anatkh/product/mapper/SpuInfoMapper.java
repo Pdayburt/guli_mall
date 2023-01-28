@@ -2,6 +2,7 @@ package com.anatkh.product.mapper;
 
 import com.anatkh.product.entity.SpuInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
 * @author anatkh
@@ -11,6 +12,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 */
 public interface SpuInfoMapper extends BaseMapper<SpuInfo> {
 
+    void updateSpuStatus(@Param("spuId") Long spuId, @Param("code") Integer code);
 }
 
 

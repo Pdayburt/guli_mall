@@ -1,9 +1,11 @@
 package com.anatkh.product.service;
 
 import com.anatkh.product.entity.Category;
+import com.anatkh.product.vo.Catelog2Vo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
+import java.util.Map;
 
 /**
 * @author anatkh
@@ -19,4 +21,8 @@ public interface CategoryService extends IService<Category> {
     Long[] findCatelogPath(Long catelogId);
 
     void updateCascade(Category category);
+
+    List<Category> LevelOneCategory();
+
+    Map<String, List<Catelog2Vo>> getCatalogJson();
 }

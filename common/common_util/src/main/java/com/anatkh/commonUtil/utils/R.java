@@ -8,6 +8,7 @@
 
 package com.anatkh.commonUtil.utils;
 
+import lombok.Data;
 import org.apache.http.HttpStatus;
 
 import java.util.HashMap;
@@ -18,8 +19,10 @@ import java.util.Map;
  *
  * @author Mark sunlightcs@gmail.com
  */
-public class R extends HashMap<String, Object> {
+@Data
+public class R<T> extends HashMap<String, Object> {
 
+	private T data;
 	private static final long serialVersionUID = 1L;
 
 	@Override

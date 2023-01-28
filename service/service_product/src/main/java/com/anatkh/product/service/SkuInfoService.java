@@ -4,6 +4,7 @@ import com.anatkh.commonUtil.utils.PageUtils;
 import com.anatkh.product.entity.SkuInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -18,4 +19,6 @@ public interface SkuInfoService extends IService<SkuInfo> {
     PageUtils queryPageByCondition(Map<String, Object> params);
 
     void up(Long spuId);
+
+    List<SkuInfo> getSkusBySpuId(Long spuId);
 }

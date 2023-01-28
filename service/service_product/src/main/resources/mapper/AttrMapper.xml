@@ -21,4 +21,11 @@
         icon,value_select,attr_type,
         enable,catelog_id,show_desc
     </sql>
+    <select id="selectSearchAttrs" resultType="java.lang.Long">
+        SELECT attr_id FROM pms_attr WHERE attr_id IN
+        <foreach collection="attrIdList" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+         AND search_type=1
+    </select>
 </mapper>

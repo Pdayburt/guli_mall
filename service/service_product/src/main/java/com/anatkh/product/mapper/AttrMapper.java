@@ -2,6 +2,9 @@ package com.anatkh.product.mapper;
 
 import com.anatkh.product.entity.Attr;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
 * @author anatkh
@@ -11,6 +14,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 */
 public interface AttrMapper extends BaseMapper<Attr> {
 
+    List<Long> selectSearchAttrs(@Param("attrIdList") List<Long> attrIdList);
 }
 
 
