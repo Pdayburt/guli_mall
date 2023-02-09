@@ -6,12 +6,9 @@ import com.anatkh.commonUtil.valid.AddGroup;
 import com.anatkh.product.entity.Brand;
 import com.anatkh.product.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
-import java.util.HashMap;
 import java.util.Map;
 
 @RestController
@@ -39,8 +36,4 @@ public class BrandController {
         PageUtils page = brandService.queryPage(params);
         return R.ok().put("page",page);
     }
-
-
-
-
 }

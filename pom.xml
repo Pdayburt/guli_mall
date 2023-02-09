@@ -21,6 +21,27 @@
     <name>guli_mall</name>
     <description>guli_mall</description>
 
+<!--    <profiles>-->
+<!--        <profile>-->
+<!--            <id>pro_env</id>-->
+<!--            <properties>-->
+<!--                <jdbc.url>jdbc:mysql://47.122.21.27:3306/gulimall_oms</jdbc.url>-->
+<!--            </properties>-->
+<!--        </profile>-->
+<!--        <profile>-->
+<!--            <id>dev_env</id>-->
+<!--            <properties>-->
+<!--                <jdbc.url>jdbc:mysql://48.122.21.27:3306/gulimall_oms</jdbc.url>-->
+<!--            </properties>-->
+<!--            <activation>-->
+<!--                <activeByDefault>true</activeByDefault>-->
+<!--            </activation>-->
+<!--        </profile>-->
+<!--    </profiles>-->
+
+
+
+
     <properties>
         <mybatis-plus.version>3.3.2</mybatis-plus.version>
         <velocity.version>2.0</velocity.version>
@@ -192,10 +213,23 @@
         </dependencies>
     </dependencyManagement>
     <build>
+<!--        <resources>-->
+<!--            <resource>-->
+<!--                <directory>${project.basedir}/src/main/resources</directory>-->
+<!--                <filtering>true</filtering>-->
+<!--            </resource>-->
+<!--        </resources>-->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
             </plugin>
         </plugins>
     </build>

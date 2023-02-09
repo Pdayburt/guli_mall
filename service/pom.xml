@@ -8,8 +8,6 @@
         <groupId>com.anatkh</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-
     <artifactId>service</artifactId>
     <packaging>pom</packaging>
     <modules>
@@ -23,7 +21,6 @@
     </modules>
 
     <dependencies>
-
 
         <dependency>
             <groupId>com.anatkh</groupId>
